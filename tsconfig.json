@@ -1,0 +1,14 @@
+//tsconfig.json
+{
+  // ts编译器配置项
+  "compilerOptions": {
+    // 指定使用的模块化规范
+    "module": "es2015",
+    // 指定编译的js版本
+    "target": "es2015",
+    // 严格模式总开关
+    "strict": true,
+    // 存在语法错误时不生成编译后文件
+    "noEmitOnError": true,
+  }
+}
